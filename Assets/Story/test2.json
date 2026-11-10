@@ -1,0 +1,43 @@
+{
+  "start": "anna",
+  "nodes": [
+    {
+      "id": "anna",
+      "speaker": "Анна",
+      "avatar": "anna",
+      "text": "Ты тоже это слышал?",
+      "next": "choice"
+    },
+    {
+      "id": "choice",
+      "speaker": "",
+      "avatar": "elena",
+      "text": "Из вентиляции донёсся странный звук.",
+      "next": null,
+      "choices": [
+        {
+          "text": "Пойти направо",
+          "nextChapter": "chapter2"
+        },
+        {
+          "text": "Пойти налево",
+          "next": "ignore"
+        }
+      ]
+    },
+    {
+      "id": "inspect",
+      "speaker": "Анна",
+      "text": "Давай посмотрим.",
+      "next": null,
+      "choices": []
+    },
+    {
+      "id": "ignore",
+      "speaker": "Анна",
+      "text": "Наверное, показалось.",
+      "next": null,
+      "choices": []
+    }
+  ]
+}

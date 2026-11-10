@@ -1,0 +1,136 @@
+{
+  "start": "door_001",
+  "nodes": [
+    {
+      "id": "dmitry_room_001",
+      "text": "Мы останавливаемся у двери комнаты Дмитрия. Сергей стучит первым.",
+      "next": "dmitry_room_002"
+    },
+    {
+      "id": "dmitry_room_002",
+      "speaker": "Сергей",
+      "avatar": "sergey",
+      "text": "Дмитрий? Ты там?",
+      "next": "dmitry_room_003"
+    },
+    {
+      "id": "dmitry_room_003",
+      "text": "Ответа нет.",
+      "next": "dmitry_room_004"
+    },
+    {
+      "id": "dmitry_room_004",
+      "speaker": "Сергей",
+      "avatar": "sergey",
+      "text": "Соколов, ты там живой?",
+      "next": "dmitry_room_005"
+    },
+    {
+      "id": "dmitry_room_005",
+      "text": "Снова тишина. Сергей пробует открыть дверь, но ручка не поддаётся.",
+      "next": "dmitry_room_006"
+    },
+    {
+      "id": "dmitry_room_006",
+      "speaker": "Сергей",
+      "avatar": "sergey",
+      "text": "Заперто.",
+      "next": "dmitry_room_007"
+    },
+    {
+      "id": "dmitry_room_007",
+      "text": "Он мог закрыться изнутри?",
+      "next": "dmitry_room_008"
+    },
+    {
+      "id": "dmitry_room_008",
+      "speaker": "Сергей",
+      "avatar": "sergey",
+      "text": "Мог, конечно. Но обычно никто здесь комнаты не запирает. Тут свои все, скрывать особо нечего.",
+      "next": "dmitry_room_009"
+    },
+    {
+      "id": "dmitry_room_009",
+      "text": "По коридору раздаются шаги. К нам подходят Алексей и Елена.",
+      "next": "dmitry_room_010"
+    },
+    {
+      "id": "dmitry_room_010",
+      "speaker": "Алексей",
+      "avatar": "alexey",
+      "text": "Дмитрий сюда не возвращался? Пришел про сообщение рассказать и найти его не могу. Уже всех на уши поставил, его после ужина никто не видел. Почти всю станцию уже обыскали!",
+      "next": "dmitry_room_013"
+    },
+    {
+      "id": "dmitry_room_013",
+      "text": "А где уже были?",
+      "next": "dmitry_room_014"
+    },
+    {
+      "id": "dmitry_room_014",
+      "speaker": "Елена",
+      "avatar": "elena",
+      "text": "В лаборатории, в столовой, в рабочем секторе. Проверили радиорубку и технические помещения. Нигде нет.",
+      "next": "dmitry_room_015"
+    },
+    {
+      "id": "dmitry_room_015",
+      "speaker": "Алексей",
+      "avatar": "alexey",
+      "text": "Я думал, он мог задержаться с работой. Но уже слишком долго его нет.",
+      "next": "dmitry_room_016"
+    },
+    {
+      "id": "dmitry_room_016",
+      "speaker": "Елена",
+      "avatar": "elena",
+      "text": "Он на ужине говорил, что собирается проверить несколько записей и потом идти отдыхать.",
+      "next": "dmitry_room_019"
+    },
+    {
+      "id": "dmitry_room_019",
+      "speaker": "Алексей",
+      "avatar": "alexey",
+      "text": "Надо открыть дверь. Вдруг он там и что-то случилось. Позовите Аню и Михаила",
+      "next": "dmitry_room_020"
+    },
+    {
+      "id": "dmitry_room_020",
+      "text": "Через несколько минут к нам подходят медсестра и главный инженер.",
+      "next": "dmitry_room_021"
+    },
+    {
+      "id": "dmitry_room_021",
+      "speaker": "Анна",
+      "avatar": "anna",
+      "text": "Нашли его? Он вернулся в комнату?",
+      "next": "dmitry_room_022"
+    },
+    {
+      "id": "dmitry_room_022",
+      "speaker": "Алексей",
+      "avatar": "alexey",
+      "text": "Нет. Комната заперта, внутри никто не отвечает.",
+      "next": "dmitry_room_023"
+    },
+    {
+      "id": "dmitry_room_023",
+      "speaker": "Михаил",
+      "avatar": "mikhail",
+      "text": "Замок тут обычный. Сейчас откроем.",
+      "next": "dmitry_room_026"
+    },
+    {
+      "id": "dmitry_room_026",
+      "text": "Через несколько минут раздаётся щелчок замка. Дверь открывается.",
+      "nextDialogue": "door_open",
+      "nextDialogueNode": "dmitry_room_028",
+      "actions" :[
+        {
+          "type": "playSound",
+          "key": "door_open"
+        }
+      ]
+    }
+  ]
+}

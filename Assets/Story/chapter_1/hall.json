@@ -1,0 +1,49 @@
+{
+  "start": "hall_001",
+  "nodes": [
+    {
+      "id": "hall_001",
+      "speaker": "",
+      "text": "Куда сейчас направиться?",
+      "next": null,
+      "choices": [
+        {
+          "text": "Столовая",
+          "nextDialogue": "lunch",
+          "nextDialogueNode" : "dining_001"
+        },
+        {
+          "text": "Переговорка",
+          "nextDialogue": "meeting",
+          "nextDialogueNode" : "meeting_001"
+        },
+        {
+          "text": "Радиорубка",
+          "nextDialogue": "radio",
+          "nextDialogueNode" : "radio_001"
+        },
+        {
+          "text": "Вернуться в комнату",
+          "transitions": [
+            {
+              "nextDialogue": "capitan",
+              "nextDialogueNode" : "capitan_003",
+              "condition": {
+                "key": "reportIsSend",
+                "value": false
+              }
+            },
+            {
+              "nextDialogue": "capitan",
+              "nextDialogueNode": "capitan_005",
+              "condition": {
+                "key": "reportIsSend",
+                "value": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8908ae8edaffe410d946f07db63cac88, type: 3}
+  m_Name: BackgroundDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::BackgroundDatabase
+  backgrounds:
+  - id: start
+    sprite: {fileID: 4649292419177271480, guid: 7ef7c238670cd4f1f9487dac22f20753, type: 3}
+  - id: capitan
+    sprite: {fileID: -2919062399926666832, guid: aca007c136d61464fa0cb2194adbec69, type: 3}
+  - id: desk
+    sprite: {fileID: 1200957801883308388, guid: df1ee9d2717fc4a498e568ce8a359c80, type: 3}
+  - id: lunch
+    sprite: {fileID: -4908862609758013115, guid: 95f241182f42a4c5490273c0bf6ac362, type: 3}
+  - id: medical
+    sprite: {fileID: -6348619481946924071, guid: 8d657f43bfa9e464b900d2d7ed9190b1, type: 3}
+  - id: meeting
+    sprite: {fileID: 6100599525071858932, guid: 678eabd4733b64d129f3bb0c2c8480b6, type: 3}
+  - id: radio
+    sprite: {fileID: -8106182276608430434, guid: 62c267ab3d3ca4ae281b0e89a9350ac0, type: 3}
+  - id: hall
+    sprite: {fileID: -6232607204969386877, guid: c83abf54a33444dfe982e92ad0810352, type: 3}
+  - id: door_close
+    sprite: {fileID: -6112967502365074766, guid: 431649bae58e54d77b406419a14cbf20, type: 3}
+  - id: door_open
+    sprite: {fileID: 1764718719359364530, guid: bcb66903104e74fb29bb36e960bd0ab9, type: 3}
